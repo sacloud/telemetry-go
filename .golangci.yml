@@ -8,8 +8,8 @@ issues:
 linters:
   disable-all: true
   enable:
+    - copyloopvar
     - errcheck
-    - exportloopref
     - gocritic
     - gofmt
     - goimports

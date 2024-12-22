@@ -1,4 +1,4 @@
-// Copyright 2022-2023 The sacloud/go-template Authors
+// Copyright 2022-2023 The sacloud/telemetry-go Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,15 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
-
-import (
-	"fmt"
-
-	"github.com/sacloud/go-template/version"
-)
-
-func main() {
-	fmt.Println("ALEA IACTA EST")
-	fmt.Println("version", version.FullVersion())
-}
+package telemetry
